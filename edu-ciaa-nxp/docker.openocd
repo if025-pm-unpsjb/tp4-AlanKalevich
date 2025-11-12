@@ -1,0 +1,2 @@
+#! /bin/sh
+docker run --network host --privileged --rm -v $(pwd):/app -w /app rtsg /home/dev/openocd/bin/openocd -f scripts/openocd/lpc4337.cfg
